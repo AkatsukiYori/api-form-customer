@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.1",
+    "express-validator": "^7.2.1",
+    "fs": "^0.0.1-security",
+    "multer": "^2.0.1",
+    "nodemon": "^3.1.10",
+    "path": "^0.12.7"
+  },
+  "name": "api_formcustomer",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
