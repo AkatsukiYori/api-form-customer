@@ -88,6 +88,7 @@ router.get("/getfile/:category/:filename", authenticateAPIKey, (req, res) => {
     "/",
     filename
   );
+  console.log(filePath);
   // Cek apakah file ada
   if (!fs.existsSync(filePath)) {
     return res.status(404).json({
