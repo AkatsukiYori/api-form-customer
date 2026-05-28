@@ -3,7 +3,7 @@ const apiKey = process.env.API_KEY;
 
 const authenticateAPIKey = (req, res, next) => {
   const apiKeyHeader = req.header("x-api-key");
-  
+  console.log("Header : ", apiKeyHeader)
 
   if (!apiKeyHeader) {
     return res.status(401).json({
