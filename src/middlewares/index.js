@@ -2,8 +2,8 @@ const dotenv = require("dotenv");
 const apiKey = process.env.API_KEY;
 
 const authenticateAPIKey = (req, res, next) => {
-  console.log()
   const apiKeyHeader = req.header("x-api-key");
+  console.log("Header: ", apik)
 
   if (!apiKeyHeader) {
     return res.status(401).json({
