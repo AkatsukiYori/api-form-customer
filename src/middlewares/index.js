@@ -5,6 +5,7 @@ const authenticateAPIKey = (req, res, next) => {
   const apiKeyHeader = req.header("x-api-key");
   console.log("Header: ", apiKeyHeader);
   console.log("env", apiKey)
+  console.log("MATCH : ". apike)
 
   if (!apiKeyHeader) {
     return res.status(401).json({
